@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        
+        form{            
+            height: 300px;
+            width: 299px;
+            background-color: cadetblue;
+        }
+        
+        div{
+            /*position: absolute;*/
+            margin: 3px;
+            display: flex;
+            float: left;
+            height:93px;
+            width: 93px;
+            background-color: #fff;
+        }
+        
+        label{
+            margin: auto;
+            font-size: 30px;
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <div id="dv1" onclick="marcarDiv('lbl1')"><label id="lbl1"></label></div>
+        <div id="dv2" onclick="marcarDiv('lbl2')"><label id="lbl2"></label></div>
+        <div id="dv3" onclick="marcarDiv('lbl3')"><label id="lbl3"></label></div>
+        <div id="dv4" onclick="marcarDiv('lbl4')"><label id="lbl4"></label></div>
+        <div id="dv5" onclick="marcarDiv('lbl5')"><label id="lbl5"></label></div>
+        <div id="dv6" onclick="marcarDiv('lbl6')"><label id="lbl6"></label></div>
+        <div id="dv7" onclick="marcarDiv('lbl7')"><label id="lbl7"></label></div>
+        <div id="dv8" onclick="marcarDiv('lbl8')"><label id="lbl8"></label></div>
+        <div id="dv9" onclick="marcarDiv('lbl9')"><label id="lbl9"></label></div>
+    </form>
+    <br>
+       <section>
+         <input type="button" value="Nuevo Juego" onclick="fnNewGame()" />   
+       </section>
+       <section id="stResult"></section>
+       
+<script src="assets/js/app.js"></script>
+</body>
+</html>
